@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://zhuairen.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Jun 2019 22:53:32 +0800</lastBuildDate>
+    
+	<atom:link href="https://zhuairen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Concurrency</title>
+      <link>https://zhuairen.github.io/post/concurrency/</link>
+      <pubDate>Sun, 30 Jun 2019 22:53:32 +0800</pubDate>
+      
+      <guid>https://zhuairen.github.io/post/concurrency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ThreadApi</title>
+      <link>https://zhuairen.github.io/content/concurrency/threadapi/</link>
+      <pubDate>Sun, 30 Jun 2019 22:40:50 +0800</pubDate>
+      
+      <guid>https://zhuairen.github.io/content/concurrency/threadapi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
