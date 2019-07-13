@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
 
   
-  <title>zhuairen</title>
+  <title>Concurrency</title>
 
   
   
@@ -26,20 +26,22 @@
 
   
   
+  <meta name="description" content="">
+
+  
+  
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@gohugoio">
+    <meta name="twitter:title" content="Concurrency">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="/images/avatar.png">
   
 
   
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@gohugoio">
-  <meta name="twitter:title" content="zhuairen">
-  
-  <meta name="twitter:image" content="/images/avatar.png">
-
-  
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="zhuairen">
-  
-  <meta property="og:url" content="http://example.org/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Concurrency">
+  <meta property="og:description" content="">
+  <meta property="og:url" content="http://example.org/2019/06/30/concurrency/">
   <meta property="og:image" content="/images/avatar.png">
 
 
@@ -48,8 +50,7 @@
 <meta name="generator" content="Hugo 0.55.6">
 
 
-<link rel="canonical" href="http://example.org/">
-<link rel="alternate" type="application/rss+xml" href="http://example.org/index.xml" title="zhuairen">
+<link rel="canonical" href="http://example.org/2019/06/30/concurrency/">
 
 <meta name="renderer" content="webkit">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -102,8 +103,12 @@
 
 
 
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.2/dist/medium-zoom.min.js"></script>
 
 
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video-js.min.css">
 
 
 
@@ -125,12 +130,15 @@
     <div class="suspension">
       <a role="button" aria-label="Go to top" title="Go to top" class="to-top is-hide"><span class="icon icon-up" aria-hidden="true"></span></a>
       
+        
+      
     </div>
     
-     <header class="site-header">
+    
+  <header class="site-header">
   <a href="http://example.org/"><img class="avatar" src="/images/avatar.png" alt="Avatar"></a>
   
-  <h1 class="title"><a href="http://example.org/">zhuairen</a></h1>
+  <h2 class="title"><a href="http://example.org/">zhuairen</a></h2>
   
   <p class="subtitle"></p>
   <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
@@ -152,57 +160,23 @@
   </nav>
 </header>
 
-<section class="main post-list">
-  <header class="list-header offscreen">
-    <h2 class="list-label">All Posts</h2>
-  </header>
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">Concurrency</h1>
+      <p class="post-meta">@ · Jun 30, 2019 · 0 min read</p>
+    </header>
+    <article class="post-content"></article>
+    <footer class="post-footer">
+      
+      <p class="post-copyright">
+        
+      </p>
+    </footer>
+    
+      
+    
+  </section>
   
-  
-   <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="http://example.org/2019/06/30/concurrency/" class="post-link">Concurrency</a></h3>
-    <p class="post-meta">@ · Jun 30, 2019 · 0 min read</p>
-  </header>
-  
-  <p class="post-summary"></p>
-  <footer class="post-footer">
-    <a class="read-more" href="http://example.org/2019/06/30/concurrency/">Read More →</a>
-  </footer>
-</article>
-  <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="http://example.org/2018/07/13/kafka/" class="post-link">Kafka</a></h3>
-    <p class="post-meta">@ · Jul 13, 2018 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">kafka 介绍 安装 macos安装 1、brew install kafka （可指定版本号）
-如果卡在brew Updating 可Ctrl&#43;c，1秒后就会开始下载安装kafka
-2、kafka安装路径：
-/usr/local/Cellar/kafka/2.0.0
-3、配置文件路径：
-/usr/local/etc/kafka/server.properties /usr/local/etc/kafka/zookeeper.properties
-4、启动服务：
-（1）启动zookeeper服务（运行kafka需要使用Zookeeper，所以你需要先启动Zookeeper，如果你没有Zookeeper，你可以使用kafka自带打包和配置好的Zookeeper。）
-　cd /usr/local/Cellar/kafka/2.3.0/bin
-　./zookeeper-server-start /usr/local/etc/kafka/zookeeper.properties &amp;
-（2）启动kafka服务
-　cd /usr/local/Cellar/kafka/2.3.0/bin
-　./kafka-server-start /usr/local/etc/kafka/server.properties &amp;
-linux安装 2.同一个消费者group不能同时消费同一个分区
-查看完整进程 jps -l
-创建topic kafka-topics
-1.查看所有的tpoic kafka-topics --list --zookeeper localhost:2181
-2.创建topic（示例：topictest） kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic topictest
-3.生产者生产数据 kafka-console-producer --broker-list localhost:9092 --topic topictest
-4.消费者消费数据 kafka-console-consumer --bootstrap-server:2181 --topic topictest</p>
-  <footer class="post-footer">
-    <a class="read-more" href="http://example.org/2018/07/13/kafka/">Read More →</a>
-  </footer>
-</article>
- 
-   
-</section>
-
 <footer class="site-footer">
   <p>© 2017-2019 zhuairen</p>
   <p>Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank" rel="noopener">Nuo</a>.</p>
@@ -214,8 +188,33 @@ linux安装 2.同一个消费者group不能同时消费同一个分区
 
 
 
+<script async src="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video.min.js"></script>
 
 
+
+
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    },
+  });
+</script>
+<script type="text/x-mathjax-config">
+  // Fix <code> tags after MathJax finishes running. This is a
+  // hack to overcome a shortcoming of Markdown. Discussion at
+  // https://github.com/mojombo/jekyll/issues/199
+  MathJax.Hub.Queue(() => {
+    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
+  });
+</script>
 
 
 
@@ -234,6 +233,7 @@ linux安装 2.同一个消费者group不能同时消费同一个分区
 
 
 
- 
+
+
   </body>
 </html>

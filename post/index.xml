@@ -13,19 +13,19 @@
     
     <item>
       <title>Concurrency</title>
-      <link>http://example.org/post/concurrency/</link>
+      <link>http://example.org/2019/06/30/concurrency/</link>
       <pubDate>Sun, 30 Jun 2019 22:53:32 +0800</pubDate>
       
-      <guid>http://example.org/post/concurrency/</guid>
+      <guid>http://example.org/2019/06/30/concurrency/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kafka</title>
-      <link>http://example.org/post/kafka/</link>
+      <link>http://example.org/2018/07/13/kafka/</link>
       <pubDate>Fri, 13 Jul 2018 09:20:31 +0800</pubDate>
       
-      <guid>http://example.org/post/kafka/</guid>
+      <guid>http://example.org/2018/07/13/kafka/</guid>
       <description>kafka 介绍 安装 macos安装 1、brew install kafka （可指定版本号）
 如果卡在brew Updating 可Ctrl+c，1秒后就会开始下载安装kafka
 2、kafka安装路径：
