@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contents on zhuairen</title>
-    <link>https://zhuairen.github.io/content/</link>
+    <link>http://example.org/content/</link>
     <description>Recent content in Contents on zhuairen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Jun 2019 22:40:50 +0800</lastBuildDate>
     
-	<atom:link href="https://zhuairen.github.io/content/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/content/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ThreadApi</title>
-      <link>https://zhuairen.github.io/content/concurrency/threadapi/</link>
+      <link>http://example.org/content/concurrency/threadapi/</link>
       <pubDate>Sun, 30 Jun 2019 22:40:50 +0800</pubDate>
       
-      <guid>https://zhuairen.github.io/content/concurrency/threadapi/</guid>
+      <guid>http://example.org/content/concurrency/threadapi/</guid>
       <description></description>
     </item>
     

@@ -2,22 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on zhuairen</title>
-    <link>https://zhuairen.github.io/post/</link>
+    <link>http://example.org/post/</link>
     <description>Recent content in Posts on zhuairen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Jun 2019 22:53:32 +0800</lastBuildDate>
     
-	<atom:link href="https://zhuairen.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Concurrency</title>
-      <link>https://zhuairen.github.io/post/concurrency/</link>
+      <link>http://example.org/post/concurrency/</link>
       <pubDate>Sun, 30 Jun 2019 22:53:32 +0800</pubDate>
       
-      <guid>https://zhuairen.github.io/post/concurrency/</guid>
+      <guid>http://example.org/post/concurrency/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Kafka</title>
+      <link>http://example.org/post/kafka/</link>
+      <pubDate>Fri, 13 Jul 2018 09:20:31 +0800</pubDate>
+      
+      <guid>http://example.org/post/kafka/</guid>
+      <description>kafka 介绍 安装 macos安装 1、brew install kafka （可指定版本号）
+如果卡在brew Updating 可Ctrl+c，1秒后就会开始下载安装kafka
+2、kafka安装路径：
+/usr/local/Cellar/kafka/2.0.0
+3、配置文件路径：
+/usr/local/etc/kafka/server.properties /usr/local/etc/kafka/zookeeper.properties
+4、启动服务：
+（1）启动zookeeper服务（运行kafka需要使用Zookeeper，所以你需要先启动Zookeeper，如果你没有Zookeeper，你可以使用kafka自带打包和配置好的Zookeeper。）
+　cd /usr/local/Cellar/kafka/2.3.0/bin
+　./zookeeper-server-start /usr/local/etc/kafka/zookeeper.properties &amp;amp;
+（2）启动kafka服务
+　cd /usr/local/Cellar/kafka/2.3.0/bin
+　./kafka-server-start /usr/local/etc/kafka/server.properties &amp;amp;
+linux安装 2.同一个消费者group不能同时消费同一个分区
+查看完整进程 jps -l
+创建topic kafka-topics
+1.查看所有的tpoic kafka-topics --list --zookeeper localhost:2181
+2.创建topic（示例：topictest） kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic topictest
+3.生产者生产数据 kafka-console-producer --broker-list localhost:9092 --topic topictest
+4.消费者消费数据 kafka-console-consumer --bootstrap-server:2181 --topic topictest</description>
     </item>
     
   </channel>

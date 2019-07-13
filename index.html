@@ -39,7 +39,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="zhuairen">
   
-  <meta property="og:url" content="https://zhuairen.github.io/">
+  <meta property="og:url" content="http://example.org/">
   <meta property="og:image" content="/images/avatar.png">
 
 
@@ -48,8 +48,8 @@
 <meta name="generator" content="Hugo 0.55.6">
 
 
-<link rel="canonical" href="https://zhuairen.github.io/">
-<link rel="alternate" type="application/rss+xml" href="https://zhuairen.github.io/index.xml" title="zhuairen">
+<link rel="canonical" href="http://example.org/">
+<link rel="alternate" type="application/rss+xml" href="http://example.org/index.xml" title="zhuairen">
 
 <meta name="renderer" content="webkit">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -128,9 +128,9 @@
     </div>
     
      <header class="site-header">
-  <a href="https://zhuairen.github.io"><img class="avatar" src="/images/avatar.png" alt="Avatar"></a>
+  <a href="http://example.org/"><img class="avatar" src="/images/avatar.png" alt="Avatar"></a>
   
-  <h1 class="title"><a href="https://zhuairen.github.io">zhuairen</a></h1>
+  <h1 class="title"><a href="http://example.org/">zhuairen</a></h1>
   
   <p class="subtitle"></p>
   <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
@@ -160,13 +160,43 @@
   
    <article class="post-entry">
   <header class="post-header">
-    <h3 class="post-title"><a href="https://zhuairen.github.io/post/concurrency/" class="post-link">Concurrency</a></h3>
+    <h3 class="post-title"><a href="http://example.org/post/concurrency/" class="post-link">Concurrency</a></h3>
     <p class="post-meta">@ · Jun 30, 2019 · 0 min read</p>
   </header>
   
   <p class="post-summary"></p>
   <footer class="post-footer">
-    <a class="read-more" href="https://zhuairen.github.io/post/concurrency/">Read More →</a>
+    <a class="read-more" href="http://example.org/post/concurrency/">Read More →</a>
+  </footer>
+</article>
+  <article class="post-entry">
+  <header class="post-header">
+    <h3 class="post-title"><a href="http://example.org/post/kafka/" class="post-link">Kafka</a></h3>
+    <p class="post-meta">@ · Jul 13, 2018 · 1 min read</p>
+  </header>
+  
+  <p class="post-summary">kafka 介绍 安装 macos安装 1、brew install kafka （可指定版本号）
+如果卡在brew Updating 可Ctrl&#43;c，1秒后就会开始下载安装kafka
+2、kafka安装路径：
+/usr/local/Cellar/kafka/2.0.0
+3、配置文件路径：
+/usr/local/etc/kafka/server.properties /usr/local/etc/kafka/zookeeper.properties
+4、启动服务：
+（1）启动zookeeper服务（运行kafka需要使用Zookeeper，所以你需要先启动Zookeeper，如果你没有Zookeeper，你可以使用kafka自带打包和配置好的Zookeeper。）
+　cd /usr/local/Cellar/kafka/2.3.0/bin
+　./zookeeper-server-start /usr/local/etc/kafka/zookeeper.properties &amp;
+（2）启动kafka服务
+　cd /usr/local/Cellar/kafka/2.3.0/bin
+　./kafka-server-start /usr/local/etc/kafka/server.properties &amp;
+linux安装 2.同一个消费者group不能同时消费同一个分区
+查看完整进程 jps -l
+创建topic kafka-topics
+1.查看所有的tpoic kafka-topics --list --zookeeper localhost:2181
+2.创建topic（示例：topictest） kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic topictest
+3.生产者生产数据 kafka-console-producer --broker-list localhost:9092 --topic topictest
+4.消费者消费数据 kafka-console-consumer --bootstrap-server:2181 --topic topictest</p>
+  <footer class="post-footer">
+    <a class="read-more" href="http://example.org/post/kafka/">Read More →</a>
   </footer>
 </article>
  

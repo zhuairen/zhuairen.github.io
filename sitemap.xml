@@ -3,40 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://zhuairen.github.io/post/concurrency/</loc>
+    <loc>http://example.org/post/concurrency/</loc>
     <lastmod>2019-06-30T22:53:32+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zhuairen.github.io/post/</loc>
-    <lastmod>2019-06-30T22:53:32+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhuairen.github.io/</loc>
+    <loc>http://example.org/post/</loc>
     <lastmod>2019-06-30T22:53:32+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zhuairen.github.io/content/</loc>
+    <loc>http://example.org/</loc>
+    <lastmod>2019-06-30T22:53:32+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/content/</loc>
     <lastmod>2019-06-30T22:40:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zhuairen.github.io/content/concurrency/threadapi/</loc>
+    <loc>http://example.org/content/concurrency/threadapi/</loc>
     <lastmod>2019-06-30T22:40:50+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zhuairen.github.io/categories/</loc>
+    <loc>http://example.org/post/kafka/</loc>
+    <lastmod>2018-07-13T09:20:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zhuairen.github.io/tags/</loc>
+    <loc>http://example.org/tags/</loc>
     <priority>0</priority>
   </url>
   
