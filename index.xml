@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>zhuairen</title>
-    <link>http://example.org/</link>
+    <link>https://zhuairen.github.io/</link>
     <description>Recent content on zhuairen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Jun 2019 22:53:32 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhuairen.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Concurrency</title>
-      <link>http://example.org/2019/06/30/concurrency/</link>
+      <link>https://zhuairen.github.io/2019/06/30/concurrency/</link>
       <pubDate>Sun, 30 Jun 2019 22:53:32 +0800</pubDate>
       
-      <guid>http://example.org/2019/06/30/concurrency/</guid>
+      <guid>https://zhuairen.github.io/2019/06/30/concurrency/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ThreadApi</title>
-      <link>http://example.org/content/concurrency/threadapi/</link>
+      <link>https://zhuairen.github.io/content/concurrency/threadapi/</link>
       <pubDate>Sun, 30 Jun 2019 22:40:50 +0800</pubDate>
       
-      <guid>http://example.org/content/concurrency/threadapi/</guid>
+      <guid>https://zhuairen.github.io/content/concurrency/threadapi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kafka</title>
-      <link>http://example.org/2018/07/13/kafka/</link>
+      <link>https://zhuairen.github.io/2018/07/13/kafka/</link>
       <pubDate>Fri, 13 Jul 2018 09:20:31 +0800</pubDate>
       
-      <guid>http://example.org/2018/07/13/kafka/</guid>
+      <guid>https://zhuairen.github.io/2018/07/13/kafka/</guid>
       <description>kafka 介绍 安装 macos安装 1、brew install kafka （可指定版本号）
 如果卡在brew Updating 可Ctrl+c，1秒后就会开始下载安装kafka
 2、kafka安装路径：
